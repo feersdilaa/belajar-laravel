@@ -10,7 +10,8 @@ Pada halaman about berisi tentang identitas saya
 
 Selanjutnya saya juga membuat halaman blog yang berisi post berita,
 
-![alt text](image-2.png)
+![Screenshot 2024-09-19 153839](https://github.com/user-attachments/assets/2114f3de-703f-43ec-a391-19c8a825b28b)
+
 
 Apabila judul di klik maka dia akan menuju ke suatu halaman berita tersendiri, sesuai dengan judul yang di click.
 
