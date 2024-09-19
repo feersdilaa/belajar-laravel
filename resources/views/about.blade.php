@@ -12,6 +12,6 @@
 </ul>
 
 <div style="text-align: center;">
-    <a href="github.com/feersdilaa">Github</a>
+    <a href="https://github.com/feersdilaa">Github</a>
 </div>
 @endsection
