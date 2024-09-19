@@ -32,13 +32,13 @@ Route::get('/about', function () {
 Route::get('/blog', function () {
     $blog_posts = [
         [
-            "title" => "Duarrr",
+            "title" => "Test",
             "slug" => "judul-pertama",
             "author" => "Jamal",
             "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi debitis id sequi nobis neque magnam ex dolorem reiciendis nemo cum, eaque ipsum, tempore sunt quisquam qui, ipsa ab! Repellendus deserunt culpa minima beatae enim quae consectetur aperiam debitis modi est amet architecto non placeat odio totam, ab cum quo nemo veniam, deleniti quas perspiciatis. Voluptates aperiam similique nemo praesentium, laborum ut rem, neque, excepturi quae at quia odio! Maiores, ipsum. At ullam, porro sapiente nulla quam fugit illum unde consequuntur!"
         ],
         [
-            "title" => "Meledak",
+            "title" => "Saja",
             "slug" => "judul-kedua",
             "author" => "Uddin",
             "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor vitae voluptatibus quo ex voluptas corrupti assumenda alias est in, sequi, soluta facilis, nostrum sit minus incidunt a adipisci tenetur natus excepturi. Incidunt cumque, dolorum neque labore consectetur reiciendis nobis laboriosam iure saepe ut possimus velit similique enim, modi debitis fugit laudantium alias? Animi magni impedit iure provident eligendi repellat nobis commodi expedita totam sint natus ullam rem aut beatae temporibus error voluptatum dolor architecto aliquam, fugit est vel minus. Architecto repellendus temporibus ad voluptate quas dolore aut at libero mollitia? Aliquam dolor cumque voluptatem fuga quidem voluptate, debitis ea ut!"
@@ -68,13 +68,13 @@ Route::get('posts/{slug}', function($slug){
 
     $blog_posts = [
         [
-            "title" => "Duarrr",
+            "title" => "Test",
             "slug" => "judul-pertama",
             "author" => "Jamal",
             "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi debitis id sequi nobis neque magnam ex dolorem reiciendis nemo cum, eaque ipsum, tempore sunt quisquam qui, ipsa ab! Repellendus deserunt culpa minima beatae enim quae consectetur aperiam debitis modi est amet architecto non placeat odio totam, ab cum quo nemo veniam, deleniti quas perspiciatis. Voluptates aperiam similique nemo praesentium, laborum ut rem, neque, excepturi quae at quia odio! Maiores, ipsum. At ullam, porro sapiente nulla quam fugit illum unde consequuntur!"
         ],
         [
-            "title" => "Meledak",
+            "title" => "Saja",
             "slug" => "judul-kedua",
             "author" => "Uddin",
             "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor vitae voluptatibus quo ex voluptas corrupti assumenda alias est in, sequi, soluta facilis, nostrum sit minus incidunt a adipisci tenetur natus excepturi. Incidunt cumque, dolorum neque labore consectetur reiciendis nobis laboriosam iure saepe ut possimus velit similique enim, modi debitis fugit laudantium alias? Animi magni impedit iure provident eligendi repellat nobis commodi expedita totam sint natus ullam rem aut beatae temporibus error voluptatum dolor architecto aliquam, fugit est vel minus. Architecto repellendus temporibus ad voluptate quas dolore aut at libero mollitia? Aliquam dolor cumque voluptatem fuga quidem voluptate, debitis ea ut!"
