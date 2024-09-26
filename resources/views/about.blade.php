@@ -1,17 +1,17 @@
 @extends('layouts.main')
 @section('container')
 <div style="text-align: center;">
-    <img src="IMG-20240321-WA0002.jpg" alt="foto-jamal" width="150" height="200">
+    <img src="{{ $images }}" alt="foto-jamal" width="200" class="img-thumbnail rounded-circle">
 </div>
-<h5 class="card-title" style="text-align:center">JAMALUDDIN</h5>
-<p class="card-text" style="text-align:center">Saya adalah seorang undergraduate Teknik Informatika ITS angkatan 22</p>
+<h5 class="card-title" style="text-align:center">{{ $name }}</h5>
+<p class="card-text" style="text-align:center">{{ $descryption }}</p>
 <ul class="list-group list-group-flush" style="text-align: center">
-    <li class="list-group-item">email : udinjamal121234@gmail.com</li>
-    <li class="list-group-item">instagram : @jmldn13</li>
-    <li class="list-group-item">linkedin: www.linkedin.com/in/jamal-uddin-15ba15223</li>
+    <li class="list-group-item">{{ $email }}</li>
+    <li class="list-group-item">{{ $instagram }}</li>
+    <li class="list-group-item">{{ $linkedin }}</li>
 </ul>
 
 <div style="text-align: center;">
-    <a href="https://github.com/feersdilaa">Github</a>
+    <a href="{{ $github }}">Github</a>
 </div>
 @endsection
